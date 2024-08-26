@@ -44,7 +44,7 @@ npm start
 2. 利用chatgpt产生更多的常见问题，进行数据增广。
 3. 在测试过程中，手动望数据集中增加数据。
 
-目前数据集分为了两个文件，`back-end/dataset.csv`以及`back-end/embedding.csv`。里面有**70+**条数据。分成两个文件的目的是增加可读性。
+目前数据集分为了两个文件，`back-end/dataset.csv`以及`back-end/embedding.csv`。里面有** 70+ **条数据。分成两个文件的目的是增加可读性。
 * `back-end/dataset.csv`：训练分类器的数据集，包括`query`、`category`以及`intent`三列。
     * `query`：用户的查询问题。字符串格式。
     * `category`：所属的意图类别。字符串格式。
