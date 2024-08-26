@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.output-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.output-row h3 {
+  margin-right: 10px;
+}
+
+.output-row p {
+  margin-right: 20px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.input-row h3 {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+}
+
+.custom-intent-section p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.highlight-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #d9534f; /* 醒目的红色 */
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5cb85c; /* 绿色按钮 */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #4cae4c; /* 按钮悬停效果 */
+}
